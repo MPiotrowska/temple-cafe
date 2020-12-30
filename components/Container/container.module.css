@@ -1,0 +1,40 @@
+.fullWidth {
+  padding: 0;
+  width: 100%;
+}
+.standard {
+  max-width: 1280px;
+  width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .standard {
+    width: 100%;
+  }
+}
+
+.heroText {
+  padding: 20px;
+  position: absolute;
+  top: 20% ;
+   
+}
+@media only screen and (max-width: 600px) {
+  .heroText {
+    position: relative;
+  }
+}
+
+.logoText {
+ 
+  /* top: 20% ; */
+  padding-left: 0;
+  padding-right: 0;
+}
+@media only screen and (max-width: 600px) {
+  .logoText {
+    padding-left:  10px;
+    padding-right: 10px;
+    position: relative;
+  }
+}
