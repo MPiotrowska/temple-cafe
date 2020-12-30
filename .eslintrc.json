@@ -4,7 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
+		"plugin:react/recommended",
+		"plugin:prettier/recommended",
         "airbnb",
         "prettier",
         "prettier/react"
@@ -19,7 +20,8 @@
     "plugins": [
         "react",
         "prettier",
-        "react-hooks"
+		"react-hooks",
+		"prettier-stylelint"
     ],
     "rules": {
         "prettier/prettier": "warn",
@@ -31,6 +33,6 @@
         "react/jsx-props-no-spreading": 0,
         "jsx-a11y/anchor-is-valid": 0,
         "jsx-a11y/label-has-associated-control": 0
-    
+
     }
 }
