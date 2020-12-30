@@ -38,12 +38,12 @@ export const NavBar = () => {
         <ul className={styles.menuContainer}>
           <li>
             <Link href="/about">
-              <a className={styles.menuItem}>About Us</a>
+              <a className={styles.menuItem}>About</a>
             </Link>
           </li>
           <li>
-            <Link href="/studies">
-              <a className={styles.menuItem}>Case Studies</a>
+            <Link href="/catering">
+              <a className={styles.menuItem}>Catering</a>
             </Link>
           </li>
           <li>
@@ -65,13 +65,13 @@ export const NavBar = () => {
         <ul className={styles.menuBurgerInner}>
           <li>
             <Link href="/about">
-              <a>About Us</a>
+              <a>About</a>
             </Link>
             NavBar
           </li>
           <li>
-            <Link href="/studies">
-              <a>Case Studies</a>
+            <Link href="/catering">
+              <a>Catering</a>
             </Link>
           </li>
           <li>
